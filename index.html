@@ -52,10 +52,10 @@ button{cursor:pointer}
 .linkbtn{background:none;border:0;color:var(--acc);font-weight:700;font-size:13.5px;padding:6px 0}
 .card{background:var(--card);border-radius:18px;box-shadow:var(--shadow)}
 /* stays */
-.stays{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.stays{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;align-items:start}
 .stay{background:none;border:0;padding:0;text-align:left}
-.stay .ph{position:relative;aspect-ratio:169/120;max-width:100%;border-radius:16px;overflow:hidden;background:var(--acc-soft);box-shadow:0 6px 16px rgba(70,40,60,.14);display:flex;align-items:center;justify-content:center;color:var(--acc)}
-.stay .ph img{width:100%;height:100%;object-fit:cover}
+.stay .ph{position:relative;height:124px;border-radius:16px;overflow:hidden;background:var(--acc-soft);box-shadow:0 6px 16px rgba(70,40,60,.14);display:flex;align-items:center;justify-content:center;color:var(--acc)}
+.stay .ph img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
 .stay .nights{position:absolute;left:8px;top:8px;background:#fff;border-radius:10px;font-size:11px;font-weight:800;padding:3px 8px;color:var(--ink)}
 .stay .nm{font-size:15px;font-weight:700;margin-top:9px}
 .stay .dt{font-size:12.5px;color:var(--mut);margin-top:1px}
